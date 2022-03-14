@@ -1,0 +1,63 @@
+
+#Three Line algo
+
+#First candlestick
+    #get high of first candlestick
+#Second candlestick
+    #monitor high of 2nd candlstick, make sure the high does not go above high of 1st candlestick
+    #close value is lower than 1st candlstick
+#Third candlestick
+    #high is less than high of 2nd candlestick
+    #close is less than close of 2nd candlestick
+#4th candlestick
+    #opens lower than close of 3rd candlestick
+    #the open is the the lowest
+    #high is higher than or equal to high of first
+
+#5-8-13 Simple Moving Averages Algo
+
+#Pull data from a past period over some interval and use it to calculate the SMA over the 3 times
+#Based on the interactions of these three averages make a decision to buy, sell, or hold positions
+
+# Intro to Machine Learning Algos
+
+# Use Interpolating Polynomials to generate a function given a set of recent historical data
+# Apply Euler's Method with PC Method to generate a prediction of how the stock will be in the next interval
+# Repeat steps upon each successive update of data and continue to make trades based on this data
+
+# Gradient Descent Algo
+
+# Use Gradient Descent to generate better approximations of polynomials for certain stocks 
+    # Beware overfitting and underfitting issues; Code may work but only converge to a local minima
+
+#Augment Gradient Descent Algo with Web Scraping functions to bolster accuracy and detect trends.
+
+#-------------------Algo Overview---------------------------
+
+# api.get_account().portfolio_value - buying power + value of stocks we own  
+# api.get_account().buying_power - buying power
+
+# def cancel_order(open_order):
+# time.sleep(1200)
+# if not(open_order.status=="filled") :
+#     cancel_order(open_order.id)
+
+# time.sleep(30)
+#     open_order = api.list_orders(
+#         status='open',
+#         limit=1,
+#         nested=True  # show nested multi-leg orders
+#     )
+#     if not(open_order.status=="filled") :
+#         cancel_thread = threading.Thread(target=cancel_order, args=(open_order,))
+#         cancel_thread.start()
+
+
+#------------------------------Retired Functions-----------------------------
+# def sell_check(stock):
+#     print("Entered Sell_Check\n")
+#     data = yfinance.download(tickers = stock.Ticker, period ='1m', interval = '1m')
+
+#     if(data['Close'] >= (float(stock.bought_price) * 1.015) and stock.bought == True and stock.sold == False):
+#         limit_price = float(stock.bought_price) * 1.015
+#         make_sell_order(stock.Ticker, limit_price, "limit", stock)

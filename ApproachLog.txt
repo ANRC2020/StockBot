@@ -1,0 +1,28 @@
+Approach 1:
+3 candlestick signal for buying 
+    - Added hard sell function
+    - Tested various bounds for the sell function
+
+Approach 2:
+Slope trader that buys when slope is + and sells when slope is -
+    - Added sell limiter so stocks are not sold for less than they are bought
+    - Added a Simple Moving Average (SMA); if SMA < 0 sell, elif SMA > 0 buy, else, hold
+    - Added a hard-sell floor to help improve the performance of SMA
+    - Replaces SMA with Exponential Moving Average (EMA); if EMA < 0 sell, elif EMA > 0 buy, else, hold
+    - Backtested the EMA using Matlab to graph and study its performace
+    - Tried various combinations of the EMA with different numerators against different stocks over various timeframes (1 min, 2 min, 5 min)
+    - Tested a slope trader with EMA as its priority check
+
+Approach 3:
+Slope trader that buys when slope is + and sells when slope is - AND shorts the market when it is down (Paused until Approach 2 is improved)
+
+Other Changes:
+    - Used Python
+    - Can connect to required accounts/info via APIs
+    - Can pull 5 min data consistently (2 and 1 min data isn't avalible for free but is avalible for backtesting)
+    - Can trade 1 stock at some regular interval >= 5min
+    - Made functions more modularized
+    - Can trade any number of stocks simultaneously at some regular interval >= 5min
+    - Created script that can load CSV files with historical data used for backtesting
+    - Created a multi-stock backtesting bot compatible with CSV file stored data
+    - Looking into memberships to stockbrokerages that can provide (1 and 2 min data as well) - Put on hold

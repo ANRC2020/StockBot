@@ -1,0 +1,21 @@
+---------------------------------------Section Stats---------------------------------------
+Period: 2d                             Interval: 5m                        Delay Period: 1d
+Net Capital: 10000.0
+Net Section Value: 11091.660900115967
+Net Percent Change: 10.916609001159667
+Best Section Value: 12075.781154632568
+Best Percent Value: 20.757811546325684
+--------------------------------------------CLOV--------------------------------------------
+Ticker: CLOV              Period: 2d              Interval: 5m              Delay Period: 1d
+Principle: 10000.0                                Ending Capital: 11091.660900115967
+Final Percent Profit: 10.916609001159667
+"Profit Log: [12075.781154632568, 11091.660900115967]"
+Best Percent Profit: 20.757811546325684
+Number of Trades Closed: 2  Average Profit Per Trade: 545.8304500579834
+# of Winning Trades: 1      Average Profit Per Winning Trade Per Stock: 3.687000274658203
+# of Losing Trades: 1       Average Profit Per Losing Trade Per Stock: 1.7700004577636719
+Profit-Loss Trade Ratio: 2.083050463905861
+Hard-Sell Limit: -0.02     Hard-Sell Triggered: True       Hard-Sell Time: 2021-06-08 10:45:00-04:00
+Buys:                      Prices:             Sells:                     Prices:
+2021-06-08 09:50:00-04:00  17.732999801635742  2021-06-08 10:30:00-04:00  21.420000076293945
+2021-06-08 10:40:00-04:00  21.700000762939453  2021-06-08 10:45:00-04:00  19.93000030517578

@@ -1,0 +1,75 @@
+----------------------------------------Section Stats---------------------------------------
+Period: 2d                             Interval: 5m                        Delay Period: 1d
+Net Capital: 50000.0
+Net Section Value: 50016.26664733887
+Net Percent Change: 0.03253329467773437
+Best Section Value: 50016.26664733887
+Best Percent Value: 0.03253329467773437
+----------------------------------------MKTX------------------------------------------------
+Ticker: MKTX              Period: 2d              Interval: 5m              Delay Period: 1d
+Principle: 10000.0                                Ending Capital: 10063.909973144531
+Final Percent Profit: 0.6390997314453125
+Profit Log: [10044.330322265625, 10063.909973144531]
+Best Percent Profit: 0.6390997314453125
+Number of Trades Closed: 2  Average Profit Per Trade: 31.954986572265625
+# of Winning Trades: 2      Average Profit Per Winning Trade Per Stock: 1.4524993896484375
+# of Losing Trades: 0       Average Profit Per Losing Trade Per Stock: N/A
+Profit-Loss Trade Ratio: N/A
+Hard-Sell Limit: -0.2     Hard-Sell Triggered: False
+Buys:                      Prices:             Sells:                     Prices:
+2021-06-11 09:40:00-04:00  438.8699951171875  2021-06-11 09:55:00-04:00  440.885009765625
+2021-06-11 15:40:00-04:00  439.57000732421875  2021-06-11 15:25:00-04:00  440.4599914550781
+----------------------------------------FANG------------------------------------------------
+Ticker: FANG              Period: 2d              Interval: 5m              Delay Period: 1d
+Principle: 10000.0                                Ending Capital: 9981.189895629883
+Final Percent Loss: -0.18810104370117187
+Profit Log: [9981.189895629883]
+Best Percent Profit: -0.18810104370117187
+Number of Trades Closed: 1  Average Profit Per Trade: -18.810104370117188
+# of Winning Trades: 0      Average Profit Per Winning Trade Per Stock: N/A
+# of Losing Trades: 1       Average Profit Per Losing Trade Per Stock: 0.16500091552734375
+Profit-Loss Trade Ratio: N/A
+Hard-Sell Limit: -0.2     Hard-Sell Triggered: False
+Buys:                      Prices:             Sells:                     Prices:
+2021-06-11 14:20:00-04:00  87.45500183105469  2021-06-11 15:25:00-04:00  87.29000091552734
+----------------------------------------COF-------------------------------------------------
+Ticker: COF              Period: 2d              Interval: 5m              Delay Period: 1d
+Principle: 10000.0                                Ending Capital: 9971.78988647461
+Final Percent Loss: -0.2821011352539063
+Profit Log: [9971.78988647461]
+Best Percent Profit: -0.2821011352539063
+Number of Trades Closed: 1  Average Profit Per Trade: -28.210113525390625
+# of Winning Trades: 0      Average Profit Per Winning Trade Per Stock: N/A
+# of Losing Trades: 1       Average Profit Per Losing Trade Per Stock: 0.4550018310546875
+Profit-Loss Trade Ratio: N/A
+Hard-Sell Limit: -0.2     Hard-Sell Triggered: True       Hard-Sell Time: 2021-06-11 10:00:00-04:00
+Buys:                      Prices:             Sells:                     Prices:
+2021-06-11 09:45:00-04:00  159.88999938964844  2021-06-11 10:00:00-04:00  159.43499755859375
+----------------------------------------NUE-------------------------------------------------
+Ticker: NUE              Period: 2d              Interval: 5m              Delay Period: 1d
+Principle: 10000.0                                Ending Capital: 9960.899719238281
+Final Percent Loss: -0.3910028076171875
+Profit Log: [9960.899719238281]
+Best Percent Profit: -0.3910028076171875
+Number of Trades Closed: 1  Average Profit Per Trade: -39.10028076171875
+# of Winning Trades: 0      Average Profit Per Winning Trade Per Stock: N/A
+# of Losing Trades: 1       Average Profit Per Losing Trade Per Stock: 0.4250030517578125
+Profit-Loss Trade Ratio: N/A
+Hard-Sell Limit: -0.2     Hard-Sell Triggered: True       Hard-Sell Time: 2021-06-11 09:50:00-04:00
+Buys:                      Prices:             Sells:                     Prices:
+2021-06-11 09:45:00-04:00  107.69499969482422  2021-06-11 09:50:00-04:00  107.2699966430664
+----------------------------------------WFC-------------------------------------------------
+Ticker: WFC              Period: 2d              Interval: 5m              Delay Period: 1d
+Principle: 10000.0                                Ending Capital: 10038.477172851562
+Final Percent Profit: 0.38477172851562497
+Profit Log: [10024.177474975586, 10038.477172851562]
+Best Percent Profit: 0.38477172851562497
+Number of Trades Closed: 2  Average Profit Per Trade: 19.23858642578125
+# of Winning Trades: 2      Average Profit Per Winning Trade Per Stock: 0.0874481201171875
+# of Losing Trades: 0       Average Profit Per Losing Trade Per Stock: N/A
+Profit-Loss Trade Ratio: N/A
+Hard-Sell Limit: -0.2     Hard-Sell Triggered: False
+Buys:                      Prices:             Sells:                     Prices:
+2021-06-11 09:55:00-04:00  45.440101623535156  2021-06-11 11:35:00-04:00  45.54999923706055
+2021-06-11 12:20:00-04:00  45.470001220703125  2021-06-11 15:25:00-04:00  45.53499984741211
+----------------------------------------End of File-----------------------------------------

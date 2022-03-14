@@ -1,0 +1,8 @@
+symbol,quantity,capital,sold,bought,bought_price
+ANVS,0,100000,1,0,0
+AAPL,0,100000,1,0,0
+FB,0,100000,1,0,0
+AMZN,0,100000,1,0,0
+EBAY,0,100000,1,0,0
+TGT,0,100000,1,0,0
+^GSPC,0,100000,1,0,0
